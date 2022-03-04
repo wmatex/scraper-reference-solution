@@ -1,0 +1,19 @@
+{
+  "name": "alza-scraper-test",
+  "version": "1.0.0",
+  "description": "Reference solution to the test exercise",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node -r ts-node/register/transpile-only index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matej Vavrinec <matej@devbros.cz>",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^13.4.1",
+    "ts-node": "^10.6.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.5"
+  }
+}
